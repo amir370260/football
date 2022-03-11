@@ -115,3 +115,35 @@ nav {
     color: #E02C6D;
     font-weight: 600;
 }
+
+/* --------------------
+    player css
+---------------------- */
+.player{
+    margin: 50px 0;
+}
+.player-cards{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.card{
+    margin: 0 20px 40px;   
+    padding: 15px;
+    box-shadow: 1px 1px 6px 6px rgba(231, 231, 231, 0.918);
+}
+.card img{
+    width: 300px;
+    height: 256px;
+}
+.card h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+}
+.card p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #6C6C6C;
+    margin: 5px 0;
+}
