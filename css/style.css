@@ -14,12 +14,21 @@ a:hover {
     width: 1140px;
     margin: 0 auto;
 }
+ul,li{
+    margin: 0;
+    padding: 0;
+}
 
+.attached{
+    background-color: rgb(12, 34, 160);
+    padding-bottom: 30px;
+}
 /* -------------------
 header css
 ------------------------ */
 header {
-    padding: 20px 0;
+    padding: 30px 0;
+    margin-bottom: 50px;
 }
 
 nav {
@@ -31,7 +40,7 @@ nav {
 .nav-item ul li {
     display: inline-block;
     list-style: none;
-    margin-right: 17px;
+    margin-right: 25px;
 
 }
 
@@ -53,8 +62,56 @@ nav {
     color: #fff;
     font-size: 16px;
     font-weight: 400;
+
+}
+.nav-btn:hover{
+    background-color: #ffffff;
+   
+    font-weight: 600;
+}
+.nav-btn:hover>a{
+    color: #E02C6D;
 }
 .nav-btn a i{
     margin-right: 5px;
    
+}
+
+/* ---------------------
+    banner css
+------------------------ */
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.b-left h2{
+    font-size: 60px;
+    font-weight: 700;
+    width: 80%;
+    color: #fff;
+}
+.b-right img{
+    width: 556.01px;
+    height: 438px;
+}
+.b-btn button {
+    background-color:#E02C6D;
+    width: 135px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b-btn button span i{
+    margin-left: 5px;
+}
+.b-btn button:hover{
+    background-color: #ffffff;
+    color: #E02C6D;
+    font-weight: 600;
 }
