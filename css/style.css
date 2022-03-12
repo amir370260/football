@@ -115,6 +115,19 @@ nav {
     color: #E02C6D;
     font-weight: 600;
 }
+.arrow{
+    position: relative;
+    left: 660px;
+    top: -15px;
+    display: inline-block;
+}
+.arrow a{
+    transition: 0.4s;
+}
+.arrow a i{
+    font-size: 25px;
+    color: #fff;
+}
 
 /* --------------------
     player css

@@ -1,0 +1,46 @@
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS */
+    header {
+        margin-bottom: 0px !important;
+        display: none;
+    }
+   
+    .banner {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .b-left h2 {
+        font-size: 45px !important;
+        width: 31% !important;
+        line-height: 55px;
+    }
+    .b-right{
+        margin-top: 40px;
+    }
+    .b-right img {
+        width: 30%;
+        /* width: 350.01px; */
+        height: auto;
+    }
+    .player-cards{
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .card{
+        width: 300px;
+
+    }
+    .arrow {
+        position: relative;
+        left: 170px;
+        top: -7px;
+        display: inline-block;
+    }
+    
+    
+
+}
